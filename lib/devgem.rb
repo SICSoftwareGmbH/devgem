@@ -26,7 +26,7 @@ module Devgem
       say "done", :green
 
       print "Deleting auto-generated gem files... "
-      `rm -rf #{devgem}`
+      `mv #{devgem} #{devgem}.bk`
       say "done", :green
       
       print "Creating '%s'... " % [devgem]
