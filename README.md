@@ -19,6 +19,7 @@ To remove the symlink, simply run `devgem delete` from the gem directory. You mi
 Devgem basically registers your gem as you would normally the first time, via bundle and rake install. It then removes the added source under $GEM_HOME/gems and creates a symlink that points to the current dir again, so your latest version is always there.
 
 Devgem does a few things
+
 1. Only works with v0.0.1 (initial development release) (TODO: update to use latest release)
 2. Uses $GEM_HOME as the directory of your gem home, and assumes your gems are under /gems/ (typical rvm setup)
 3. Works with only the current dir gem setup (TODO: accept arguments to change this)
