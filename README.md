@@ -2,6 +2,8 @@
 
 Devgem bundles and installs your under development gem so that you don't have to mess around with paths or bundling/installing everytime you make a change.
 
+To learn more about why Devgem came to be, read the blogpost: http://sakr.me/1087
+
 ## Installation
 
 Install the gem:
@@ -26,7 +28,7 @@ Devgem does a few things
 
 ## Contributing
 
-1. Fork it ( https://github.com/[my-github-username]/devgem/fork )
+1. Fork it
 2. Create your feature branch (`git checkout -b my-new-feature`)
 3. Commit your changes (`git commit -am 'Add some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)
